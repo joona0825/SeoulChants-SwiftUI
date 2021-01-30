@@ -1,5 +1,5 @@
 //
-//  SeoulChants_SwiftUIApp.swift
+//  SeoulChantsApp.swift
 //  Shared
 //
 //  Created by Alfred Woo on 2021/01/27.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SeoulChants_SwiftUIApp: App {
+struct SeoulChantsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

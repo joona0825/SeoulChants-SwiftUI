@@ -3,20 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF1DD18C25C1B1F000E48055 /* SeoulChants_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17925C1B1EF00E48055 /* SeoulChants_SwiftUIApp.swift */; };
-		FF1DD18D25C1B1F000E48055 /* SeoulChants_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17925C1B1EF00E48055 /* SeoulChants_SwiftUIApp.swift */; };
+		FF1DD18C25C1B1F000E48055 /* SeoulChantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17925C1B1EF00E48055 /* SeoulChantsApp.swift */; };
+		FF1DD18D25C1B1F000E48055 /* SeoulChantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17925C1B1EF00E48055 /* SeoulChantsApp.swift */; };
 		FF1DD18E25C1B1F000E48055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17A25C1B1EF00E48055 /* ContentView.swift */; };
 		FF1DD18F25C1B1F000E48055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1DD17A25C1B1EF00E48055 /* ContentView.swift */; };
 		FF1DD19025C1B1F000E48055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1DD17B25C1B1F000E48055 /* Assets.xcassets */; };
 		FF1DD19125C1B1F000E48055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1DD17B25C1B1F000E48055 /* Assets.xcassets */; };
+		FF5667F825C5533C00525B7A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5667F725C5533C00525B7A /* Song.swift */; };
+		FF5667F925C5533C00525B7A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5667F725C5533C00525B7A /* Song.swift */; };
+		FF56680425C5539900525B7A /* NextMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56680325C5539900525B7A /* NextMatch.swift */; };
+		FF56680525C5539900525B7A /* NextMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56680325C5539900525B7A /* NextMatch.swift */; };
+		FF56680E25C5548500525B7A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF56680D25C5548500525B7A /* Alamofire */; };
+		FF56681325C554DC00525B7A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF56681225C554DC00525B7A /* Alamofire */; };
+		FF6DEBAD25C1B65000AB224E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FF6DEBAC25C1B65000AB224E /* FirebaseMessaging */; };
+		FF6DEBB125C245BD00AB224E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DEBB025C245BD00AB224E /* Network.swift */; };
+		FF6DEBB225C245BD00AB224E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DEBB025C245BD00AB224E /* Network.swift */; };
+		FF6DEBB625C245E300AB224E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DEBB525C245E300AB224E /* Model.swift */; };
+		FF6DEBB725C245E300AB224E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DEBB525C245E300AB224E /* Model.swift */; };
+		FF70D19325C531300084121B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70D19225C531300084121B /* WebView.swift */; };
+		FF70D19425C531300084121B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70D19225C531300084121B /* WebView.swift */; };
+		FFEB701025C2DE83000ECC3F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB700F25C2DE83000ECC3F /* Common.swift */; };
+		FFEB701125C2DE83000ECC3F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB700F25C2DE83000ECC3F /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF1DD17925C1B1EF00E48055 /* SeoulChants_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulChants_SwiftUIApp.swift; sourceTree = "<group>"; };
+		FF1DD17925C1B1EF00E48055 /* SeoulChantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulChantsApp.swift; sourceTree = "<group>"; };
 		FF1DD17A25C1B1EF00E48055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF1DD17B25C1B1F000E48055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1DD18025C1B1F000E48055 /* SeoulChants-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeoulChants-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +39,12 @@
 		FF1DD18825C1B1F000E48055 /* SeoulChants-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeoulChants-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1DD18A25C1B1F000E48055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1DD18B25C1B1F000E48055 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FF5667F725C5533C00525B7A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		FF56680325C5539900525B7A /* NextMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMatch.swift; sourceTree = "<group>"; };
+		FF6DEBB025C245BD00AB224E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FF6DEBB525C245E300AB224E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FF70D19225C531300084121B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FFEB700F25C2DE83000ECC3F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6DEBAD25C1B65000AB224E /* FirebaseMessaging in Frameworks */,
+				FF56680E25C5548500525B7A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF56681325C554DC00525B7A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,14 +75,18 @@
 				FF1DD18225C1B1F000E48055 /* iOS */,
 				FF1DD18925C1B1F000E48055 /* macOS */,
 				FF1DD18125C1B1F000E48055 /* Products */,
+				FF56681125C554DC00525B7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FF1DD17825C1B1EF00E48055 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FF1DD17925C1B1EF00E48055 /* SeoulChants_SwiftUIApp.swift */,
-				FF1DD17A25C1B1EF00E48055 /* ContentView.swift */,
+				FF5667FC25C5534000525B7A /* View */,
+				FF1DD17925C1B1EF00E48055 /* SeoulChantsApp.swift */,
+				FF6DEBB025C245BD00AB224E /* Network.swift */,
+				FF6DEBB525C245E300AB224E /* Model.swift */,
+				FFEB700F25C2DE83000ECC3F /* Common.swift */,
 				FF1DD17B25C1B1F000E48055 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -90,6 +118,24 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		FF5667FC25C5534000525B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF1DD17A25C1B1EF00E48055 /* ContentView.swift */,
+				FF70D19225C531300084121B /* WebView.swift */,
+				FF5667F725C5533C00525B7A /* Song.swift */,
+				FF56680325C5539900525B7A /* NextMatch.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF56681125C554DC00525B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +152,10 @@
 			dependencies = (
 			);
 			name = "SeoulChants-SwiftUI (iOS)";
+			packageProductDependencies = (
+				FF6DEBAC25C1B65000AB224E /* FirebaseMessaging */,
+				FF56680D25C5548500525B7A /* Alamofire */,
+			);
 			productName = "SeoulChants-SwiftUI (iOS)";
 			productReference = FF1DD18025C1B1F000E48055 /* SeoulChants-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +173,9 @@
 			dependencies = (
 			);
 			name = "SeoulChants-SwiftUI (macOS)";
+			packageProductDependencies = (
+				FF56681225C554DC00525B7A /* Alamofire */,
+			);
 			productName = "SeoulChants-SwiftUI (macOS)";
 			productReference = FF1DD18825C1B1F000E48055 /* SeoulChants-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +206,10 @@
 				Base,
 			);
 			mainGroup = FF1DD17325C1B1EF00E48055;
+			packageReferences = (
+				FF6DEBAB25C1B65000AB224E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FF56680C25C5548500525B7A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FF1DD18125C1B1F000E48055 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,8 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5667F825C5533C00525B7A /* Song.swift in Sources */,
 				FF1DD18E25C1B1F000E48055 /* ContentView.swift in Sources */,
-				FF1DD18C25C1B1F000E48055 /* SeoulChants_SwiftUIApp.swift in Sources */,
+				FF1DD18C25C1B1F000E48055 /* SeoulChantsApp.swift in Sources */,
+				FF6DEBB125C245BD00AB224E /* Network.swift in Sources */,
+				FF70D19325C531300084121B /* WebView.swift in Sources */,
+				FFEB701025C2DE83000ECC3F /* Common.swift in Sources */,
+				FF56680425C5539900525B7A /* NextMatch.swift in Sources */,
+				FF6DEBB625C245E300AB224E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5667F925C5533C00525B7A /* Song.swift in Sources */,
 				FF1DD18F25C1B1F000E48055 /* ContentView.swift in Sources */,
-				FF1DD18D25C1B1F000E48055 /* SeoulChants_SwiftUIApp.swift in Sources */,
+				FF1DD18D25C1B1F000E48055 /* SeoulChantsApp.swift in Sources */,
+				FF6DEBB225C245BD00AB224E /* Network.swift in Sources */,
+				FF70D19425C531300084121B /* WebView.swift in Sources */,
+				FFEB701125C2DE83000ECC3F /* Common.swift in Sources */,
+				FF56680525C5539900525B7A /* NextMatch.swift in Sources */,
+				FF6DEBB725C245E300AB224E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +307,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 30;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -255,6 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.4.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -297,6 +368,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 30;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -308,6 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.4.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -321,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFXQRL364R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -329,7 +403,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.alfr.SeoulChants-SwiftUI";
+				MARKETING_VERSION = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfr.SeoulChants;
 				PRODUCT_NAME = "SeoulChants-SwiftUI";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -343,6 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFXQRL364R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -351,7 +427,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.alfr.SeoulChants-SwiftUI";
+				MARKETING_VERSION = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfr.SeoulChants;
 				PRODUCT_NAME = "SeoulChants-SwiftUI";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -368,6 +445,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "$(inherited)";
 				DEVELOPMENT_TEAM = CFXQRL364R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -377,7 +455,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.alfr.SeoulChants-SwiftUI";
+				MARKETING_VERSION = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfr.SeoulChants;
 				PRODUCT_NAME = "SeoulChants-SwiftUI";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -392,6 +471,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "$(inherited)";
 				DEVELOPMENT_TEAM = CFXQRL364R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -401,7 +481,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kr.alfr.SeoulChants-SwiftUI";
+				MARKETING_VERSION = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfr.SeoulChants;
 				PRODUCT_NAME = "SeoulChants-SwiftUI";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -439,6 +520,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF56680C25C5548500525B7A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		FF6DEBAB25C1B65000AB224E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF56680D25C5548500525B7A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF56680C25C5548500525B7A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FF56681225C554DC00525B7A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF56680C25C5548500525B7A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FF6DEBAC25C1B65000AB224E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF6DEBAB25C1B65000AB224E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF1DD17425C1B1EF00E48055 /* Project object */;
 }
